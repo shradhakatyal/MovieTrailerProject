@@ -41,7 +41,7 @@ Example:
 Example:
 >.\entertainment_center.py
 ```
-If you want to use your own python file instead of entertainment\_center.py.
+__If you want to use your own python file instead of entertainment\_center.py.__
 1. Create a new file and save it with the extension .py in the same directory as fresh\_tomatoes.py and media.py
 2. At the top of the file, import  fresh\_tomatoes.py and media.py
 ```
