@@ -26,17 +26,17 @@ Python must be installed on your system. _See Prerequisites_
 4. The file entertainment\_center.py has to be run. There are two ways to run this file.
 
 _Using the python IDLE_
-5. Open the file entertainment\_center.py in the IDLE.
-6. Click on __run module__ present inside __run__.
+1. Open the file entertainment\_center.py in the IDLE.
+2. Click on __run module__ present inside __run__.
 
 _Using the command line_
-5. Open the command line
-6. Go to the directory where entertainment\_center.py is saved using cd.
+1. Open the command line
+2. Go to the directory where entertainment\_center.py is saved using cd.
 ```
 Example:
 >cd Desktop\MovieTrailerProject
 ```
-7. Run the file by appending the file name to .\
+3. Run the file by appending the file name to .\
 ```
 Example:
 >.\entertainment_center.py
