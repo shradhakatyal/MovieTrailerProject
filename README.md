@@ -18,6 +18,30 @@ _To see a demo of the project, click <a href="https://shradhakatyal.github.io/Mo
 
 After downloading the files, the project can be run by adding fresh\_tomatoes.py and media.py to the top of the python file. Add information like title, storyline, poster\_image\_url and trailer\_youtube\_url and create an object by calling  media.Movie() and by passing the four arguments. Call the fresh\_tomatoes.open\_movies\_page() function and pass the movie object as an argument. Run your python file to generate the webpage. For the purpose of <a href="https://shradhakatyal.github.io/MovieTrailerProject/fresh_tomatoes.html">demo</a>, entertainment\_center.py can be used.
 
+#### Steps
+Python must be installed on your system. _See Prerequisites_
+1. Download fresh\_tomatoes.py, media.py and entertainment\_center.py
+2. Download the css file- movie.css
+3. Save all three python files in the same folder and the css file under a separate folder css.
+4. The file entertainment\_center.py has to be run. There are two ways to run this file.
+
+_Using the python IDLE_
+5. Open the file entertainment\_center.py in the IDLE.
+6. Click on __run module__ present inside __run__.
+
+_Using the command line_
+5. Open the command line
+6. Go to the directory where entertainment\_center.py is saved using cd.
+```
+Example:
+>cd Desktop\MovieTrailerProject
+```
+7. Run the file by appending the file name to .\
+```
+Example:
+>.\entertainment_center.py
+```
+
 ## Information
 
 media.py contains the Movie class which has four class variables and one function \_\_init\_\_ that is used to initialize the class variables. The four class variables are: title, storyline, poster\_image\_url and trailer\_youtube\_url.
