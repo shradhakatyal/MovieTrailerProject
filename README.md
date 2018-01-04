@@ -14,7 +14,7 @@ Python should be available on your machine for the project to work. To download 
 
 ### Quick Start
 
-After downloading the files, the project can be run by adding fresh\_tomatoes.py and media.py to the top of the pyhton file. Add information like title, storyline, posterimage and youtubetrailer and create an object by calling  media.Movie() and by pasisng the four arguments.Call the fresh\_tomatoes.open\_movies\_page() function and pass the movie object as an argument. Run your python file to generate the webpage. For the purpose of demo, entertainment\_center.py can be used.
+After downloading the files, the project can be run by adding fresh\_tomatoes.py and media.py to the top of the pyhton file. Add information like title, storyline, posterimage and youtubetrailer and create an object by calling  media.Movie() and by pasisng the four arguments.Call the fresh\_tomatoes.open\_movies\_page() function and pass the movie object as an argument. Run your python file to generate the webpage. For the purpose of <a href="https://shradhakatyal.github.io/MovieTrailerProject/fresh\_tomatoes.html">demo</a>, entertainment\_center.py can be used.
 
 ## Information
 
