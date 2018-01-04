@@ -41,6 +41,36 @@ Example:
 Example:
 >.\entertainment_center.py
 ```
+If you want to use your own python file instead of entertainment\_center.py.
+1. Create a new file and save it with the extension .py in the same directory as fresh\_tomatoes.py and media.py
+2. At the top of the file, import  fresh\_tomatoes.py and media.py
+```
+import fresh_tomatoes
+import media
+```
+3. Create a list of dictionary and add relevant details about your favorite movie.
+```
+list_of_movies = [{'title': "Toy Story",
+                   'story': "A story of a boy and his toys that come to life",
+                   'poster': "http://www.movieposter.com/posters/archive/main/15/A70-7642",
+                   'trailer': "https://www.youtube.com/watch?v=KYz2wyBy3kc"}]
+```
+4. Add as many movies as you like.
+5. Create an empty list.
+```
+movies = []
+```
+6. Create and add movie objects to this list using a for loop.
+```
+for item in list_of_movies:
+    movies.append(media.Movie(item['title'], item['story'], item['poster'],
+                              item['trailer']))
+```
+7. Pass this list to the open\_movies\_page() function present in fresh\_tomatoes.py
+```
+fresh_tomatoes.open_movies_page(movies)
+```
+8. Save your file and run it following the steps given above.
 
 ## Information
 
