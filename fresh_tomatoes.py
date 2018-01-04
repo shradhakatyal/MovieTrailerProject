@@ -123,7 +123,7 @@ def open_movies_page(movies):
     # Create or overwrite the output file
     output_file = open('fresh_tomatoes.html', 'w')
 
-    # Replace the movie tiles placeholder generated content
+    # Replace the movie tiles placeholder with generated content
     rendered_content = main_page_content.format(
         movie_tiles=create_movie_tiles_content(movies))
 
