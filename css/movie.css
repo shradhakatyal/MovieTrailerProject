@@ -1,0 +1,64 @@
+body {
+  padding-top: 80px;
+  /* Backgroud color taken from https://uigradients.com */
+  background: #870000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Raleway', sans-serif;
+}
+footer {
+  margin: 0 auto;
+  text-align: center;
+  color: pink;
+}
+h2 {
+  color: white;
+}
+p {
+  color: pink;
+}
+.navbar {
+  background-color: #330000;
+}
+.navbar-brand {
+  color: white;
+}
+.navbar-brand:hover {
+  color: pink;
+}
+#trailer .modal-dialog {
+  margin-top: 200px;
+  width: 640px;
+  height: 480px;
+}
+.hanging-close {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  z-index: 9001;
+}
+#trailer-video {
+  width: 100%;
+  height: 100%;
+}
+.movie-tile {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.movie-tile:hover {
+  background-color: #330000;
+  cursor: pointer;
+}
+.scale-media {
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.scale-media iframe {
+  border: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: white;
+}
