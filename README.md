@@ -21,8 +21,11 @@ After downloading the files, the project can be run by adding fresh\_tomatoes.py
 ## Information
 
 media.py contains the Movie class which has four class variables and one function \_\_init\_\_ that is used to initialize the class variables. The four class variables are: title, storyline, poster\_image\_url and trailer\_youtube\_url.
+
 fresh\_tomatoes.py contains the html markup and two functions open\_movies\_page and create\_movie\_tiles\_content that are used to add and display movie content on the static webpage.
+
 entertainment\_center.py imports the two files and is used to create objects of type Movie. The function open\_movies\_page is called by passing the list of movie objects as an argument.
+
 css folder contains movie.css which has been used to style the html page.
 
 ## Copyright
