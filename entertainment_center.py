@@ -1,6 +1,8 @@
 import fresh_tomatoes
 import media
-
+""" A list of movie attributes are stored and used to create objects of type Movie.
+    The objects are then passed to the open_movies_page function of the fresh_tomatoes module."""
+    
 # Storing the information about movies in a list of dictionary
 list_of_movies = [{'title': "Toy Story",
                    'story': "A story of a boy and his toys that come to life",
